@@ -1,0 +1,220 @@
+{
+  "media": {
+    "input": "media",
+    "output": "/media"
+  },
+  "content": [
+    {
+      "name": "games",
+      "label": "Jogos",
+      "type": "collection",
+      "path": "content/games",
+      "format": "json",
+      "filename": "{primary}.json",
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "title",
+          "label": "Nome do jogo",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "slug",
+          "label": "Endereço curto (sem espaços)",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "published",
+          "label": "Publicado",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "featured",
+          "label": "Destaque na página inicial",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "order",
+          "label": "Ordem de exibição",
+          "type": "number",
+          "default": 10
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "platforms",
+          "label": "Plataformas",
+          "type": "string"
+        },
+        {
+          "name": "genre",
+          "label": "Gênero",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "label": "Frase curta",
+          "type": "text"
+        },
+        {
+          "name": "description",
+          "label": "Descrição completa",
+          "type": "text"
+        },
+        {
+          "name": "cover",
+          "label": "Capa",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "gallery",
+          "label": "Galeria",
+          "type": "image",
+          "list": true
+        },
+        {
+          "name": "play_url",
+          "label": "Link Google Play",
+          "type": "string"
+        },
+        {
+          "name": "web_url",
+          "label": "Link para jogar na web",
+          "type": "string"
+        },
+        {
+          "name": "privacy_url",
+          "label": "Política de privacidade",
+          "type": "string"
+        },
+        {
+          "name": "terms_url",
+          "label": "Termos de Serviço",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "posts",
+      "label": "Novidades",
+      "type": "collection",
+      "path": "content/posts",
+      "format": "json",
+      "filename": "{primary}.json",
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "title",
+          "label": "Título",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "slug",
+          "label": "Endereço curto (sem espaços)",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "published",
+          "label": "Publicado",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "date",
+          "label": "Data",
+          "type": "date"
+        },
+        {
+          "name": "category",
+          "label": "Categoria",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "label": "Resumo",
+          "type": "text"
+        },
+        {
+          "name": "cover",
+          "label": "Imagem de capa",
+          "type": "image"
+        },
+        {
+          "name": "body",
+          "label": "Texto (separe parágrafos com linha em branco)",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "studio",
+      "label": "Estúdio e contato",
+      "type": "file",
+      "path": "content/site.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Nome do estúdio",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "headline",
+          "label": "Frase de abertura",
+          "type": "text"
+        },
+        {
+          "name": "intro",
+          "label": "Apresentação curta",
+          "type": "text"
+        },
+        {
+          "name": "about",
+          "label": "Sobre o estúdio",
+          "type": "text"
+        },
+        {
+          "name": "email",
+          "label": "E-mail de contato",
+          "type": "string"
+        },
+        {
+          "name": "logo",
+          "label": "Logotipo",
+          "type": "image"
+        },
+        {
+          "name": "instagram",
+          "label": "Instagram",
+          "type": "string"
+        },
+        {
+          "name": "youtube",
+          "label": "Youtube",
+          "type": "string"
+        },
+        {
+          "name": "discord",
+          "label": "Discord",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

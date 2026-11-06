@@ -1,0 +1,22 @@
+{
+  "title": "Ecos da Última Torre",
+  "slug": "ecos-da-ultima-torre",
+  "published": true,
+  "featured": true,
+  "order": 1,
+  "status": "Em teste",
+  "platforms": "Android",
+  "genre": "RPG por turnos",
+  "summary": "A última luz de Avarin ainda resiste.",
+  "description": "Prepare-se em Valdora, explore masmorras e desafie os 50 andares da Última Torre.\n\nDomine armas e magias pelo uso, encontre equipamentos raros e decida o que levar para o próximo confronto. Cada expedição é uma escolha entre voltar em segurança ou arriscar por mais.",
+  "cover": "/media/ecos-cover.webp",
+  "gallery": [
+    "/media/ecos-cidade.jpg",
+    "/media/ecos-combate.jpg",
+    "/media/ecos-equipamentos.jpg"
+  ],
+  "play_url": "",
+  "web_url": "",
+  "privacy_url": "https://davidfernandeslplp-coder.github.io/ecos-ultima-torre-privacy/",
+  "terms_url": "https://davidfernandeslplp-coder.github.io/ecos-ultima-torre-privacy/termos.html"
+}
